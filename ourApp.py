@@ -233,7 +233,7 @@ if image is not None:
         # get the execution time
         elapsed_time = end - start
         st.write('Execution time:', round(elapsed_time), 'seconds')
-        df.to_csv(r"C:\Users\maria\OneDrive - IMAM ABDULRAHMAN BIN FAISAL UNIVERSITY\Training\AI\results.csv", index=False)
+        df.to_csv("results.csv", index=False)
         
         st.success('CSV File is saved to your computer')
     st.balloons()
